@@ -10,26 +10,33 @@
 const page1 = new article(
     "news/NCC_ServerIcon.webp",
     "NCCs Officially Open!",
-    "Neon Constellation customs are now officially open to the public!",
+    "Neon Constellations Customs is now officially open!" + 
+    "We’re super excited to be bringing this to you and" +
+    "hope that you’ll join us in welcoming a new step forward in custom cards!",
     "2025/06/19"
 );
 const page2 = new article(
     "news/FAQ2.png",
     "Check out our FAQ!",
-    "blurb about our FAQ page and what you might find goes here",
+    "Have questions? We thought so, head over to our #faq channel for some answers!" + 
+    "If you have any questions that aren’t answered by the FAQ please make sure to " + 
+    "reach out to us through our Contact Us form on our website!",
     "2025/06/19"
 );
 // use + to write article on multiple lines if needed 
 const page3 = new article(
     "news/events.png",
     "Event Plans!",
-    "here's the blurb explaining what we plan for events!",
+    "Keep an eye out for our upcoming event plans! Details to be announced, " +
+    "and make sure you opt into the event roles in our #role-selection channel.",
     "2025/06/19"
 );
 const page4 = new article(
     "news/submission.png",
     "Submissions Open!",
-    "theres nothing, fill in the format. go now quick there's no time",
+    "The most important part of any custom card server are, you guessed it… cards!" + 
+    "We’re excited to work together with creators and flesh out our format! Please " + 
+    "make sure to check out our submission guidelines in #submission-guide.",
     "2025/06/19"
 );
 const page5 = new article(
