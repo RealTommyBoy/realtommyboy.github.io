@@ -1,0 +1,18 @@
+article > div {
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(to bottom right, #6115e5, #31063e);
+}
+
+article > div > * {
+    margin: 1vw;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+
+
+table {
+    padding: 2vw;
+}

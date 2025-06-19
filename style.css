@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "TiltNeon";
+    src: url("fonts/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf");
+}
+
+html { 
+    font-family: 'TiltNeon';
+    background-image: url("images/neobackground.png");
+    background-size: 67vw;
+    background-color: black;
+    color: white;
+    text-shadow: pink 0 0 7px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 3vw;
+    background-image: linear-gradient(to bottom right, #6115e5, #31063e);
+}
+
+
+header > h1 {
+    position:static;
+    width: 100%;
+    text-align: center;
+    height: 7vw;
+}
+
+header > div > img {
+    position: absolute;
+    margin: 2vw;
+    height: 6vw;
+    width: auto;
+    border-top: 3px solid #01fbf7;
+    border-left: 3px solid #01fbf7;
+    border-bottom: 3px solid #e006f7;
+    border-right: 3px solid #e006f7;
+}
+
+header > h1 > a {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 5vw;
+}
+
+a {
+    transition-duration: 400ms;
+    transition-property: text-shadow;
+}
+
+a:hover {
+    text-shadow: pink 0 0 30px;
+}
+
+nav {
+    height: 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid #01fbf7;
+}
+
+#nav1, #nav2 { 
+    border-right: 2px solid #e006f7;
+}
+
+nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    text-align: center;
+    font-size: 2.2vw;    
+    color: white;
+    text-decoration: none;
+}
+
+.neon { 
+    border-top: 3px solid #01fbf7;
+    border-left: 3px solid #01fbf7;
+    border-bottom: 3px solid #e006f7;
+    border-right: 3px solid #e006f7;
+    transition-duration: 400ms;
+    transition-property: box-shadow;
+    border-radius: 7.7px;
+
+}
+
+.neon:hover {
+    box-shadow: 
+    2px 2px 20px 2px #e006f7, 
+    -2px -2px 20px 2px #01fbf7;
+}
+
+footer {
+    border-top: 3px solid #01fbf7;
+    margin-bottom: -100px;
+    margin-left: -8px;
+    padding: 1vw;
+    padding-left: 0;
+    padding-right: 0;
+    width: calc(100% + 16px);
+    text-align: center;
+    font-size: 1.1vw;
+    background-image: linear-gradient(to bottom right, #6115e5, #31063e);
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+}

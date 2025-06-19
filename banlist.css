@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+table {
+    width: 92vw;
+    margin: 3vw;
+    color: black;
+    text-shadow: none;
+    background-color: rgb(56, 55, 55);
+}
+
+td {
+    font-family: "OpenSans";
+    text-transform:uppercase; 
+}
+
+thead > * {
+    background-color: lightslategray;
+    font-weight: bold;
+}
+
+.normal > tr {
+    background-color: #fde68a;
+}
+
+.effect > tr {
+    background-color: #ff8b53;
+}
+
+
+.ritual > tr {
+    background-color: #9cb4cf;
+}
+
+.fusion > tr {
+    background-color: #a086b7;
+}
+
+.link > tr{
+    background-color: #006ead;
+}
+
+.synchro > tr {
+    background-color: #cccccc;
+}
+
+.xyz > tr {
+    background-color: black;
+    color: white;
+}
+
+.spell > tr {
+    background-color: #1d9e74;
+}
+
+.trap > tr {
+    background-color: #bc5a84;
+}

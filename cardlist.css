@@ -1,0 +1,24 @@
+article > div {
+    margin: 3vw;
+    background-image: linear-gradient(to bottom right, #6115e5, #31063e);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article > img {
+    margin: 3vw;
+    margin-top: 0px;
+    width: 92vw;
+    height: auto;
+    background-image: linear-gradient(to bottom right, #6115e5, #31063e);
+}
+
+div > h2 {
+    width: 30%;
+    font-size: 4vw;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}

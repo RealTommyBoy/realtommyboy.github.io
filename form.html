@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NCC - Contact</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="form.css">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "DNJ9AEz76GFdT8eV6",
+            });
+        })();
+        </script>
+    </head>
+    <body>
+        <header class="neon">
+            <div>
+            <img src="images/NCC_Logo_WEBSITE.webp">
+            </div>
+            <h1 class="image"><a href="main.html">Neon Constellation Customs</a></h1>
+            <nav>
+                <a id="nav1" href="cardlist.html">Card List</a>
+                <a id="nav2" href="banlist.html">Banlist</a>
+                <a id="nav3" href="form.html">Contact Us</a>
+            </nav>
+        </header>
+        <article>
+            <section>
+                <div class="neon">
+                    <h2>Contact Form</h2>
+                    <p>Issues with the format? suggestions for the server? found a bug on the website? look no further! 
+                        get in contact directly with the Server Owners through our new Contact Form. You may choose to send in 
+                        your suggestions or complaints anonymously, or add your discord tag/email so we may reach out to 
+                        you for a back and forth discussion about your most pressing issues. Be sure to join the discord 
+                        first linked on this page. Please note if you contact us anonymously we will not be able to reach out 
+                        to you for additional support</p>
+                </div>
+                <form class="neon">
+                    <fieldset id="form">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required>
+
+                        <label for="contact">Contact Email / Discord Tag (optional)</label>
+                        <input for="text"  id="contact" value="anonymous">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="8" required></textarea>
+                    </fieldset>
+                    <fieldset id="buttons">
+                        <button type="button" id="submit" onclick="sendEmail()">Submit</button>
+                        <input type="reset" id="reset">
+                    </fieldset>
+                </form>
+                <script type="text/javascript" src="form.js"></script>
+            </section>
+            <iframe class="neon" src="https://discord.com/widget?id=1379659395067285595&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </article>
+        <footer>Created/Developed by &#64;loltommyboy &#8226; Asset/Logo Design by &#64;theconstruct &#8226; card list NCCS on <a href="https://www.duelingbook.com/">Dueling Book</a> &#8226; in loving memory of Beybl</footer>
+    </body>
+</html>
