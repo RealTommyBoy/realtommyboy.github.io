@@ -5,6 +5,7 @@
         <title>NCC - Card List</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="cardlist.css">
+        <script src="cardlist.js" defer></script>
     </head>
     <body>
         <header class="neon">
@@ -21,8 +22,36 @@
         <article>
             <div class="neon">
                 <h2>Card List</h2>
+                <h3>Sort By</h3>
+                <div id="buttons">
+                    <button onclick="applySetlist()" id="setButton">Set List</button>
+                    <button onclick="applyArchetypes()" id="archButton">Archetypes</button>
+                    <button onclick="applySingles()" id="singleButton">Singles</button>
+                </div>
             </div>
-            <img class="neon" src="images/under_construct.png">
+            <div class="neon container">
+                <section class="setlist row1">
+                    <a href="https://www.duelingbook.com/deck?id=18071077"><img src="setart/IGAM.webp" class="neon"></a>
+                </section>
+                <section class="archetypes row1">
+                    <a href="https://www.duelingbook.com/deck?id=18071224"><img src="setart/manafusion.webp" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18071212"><img src="setart/conflagrant.webp" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18071239"><img src="setart/diagasplashart.webp" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18071090"><img src="setart/snaqueen.webp" class="neon"></a>
+                </section>
+                <section class="archetypes">
+                    <a href="https://www.duelingbook.com/deck?id=18071247"><img src="setart/Masmania.webp" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18071235"><img src="setart/autelonium.webp" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18044152"><img src="setart/Anzang.webp" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18071273"><img src="setart/Revenoth.webp" class="neon"></a>
+                </section>
+                <section class="singles row1">
+                    <a href="https://www.duelingbook.com/deck?id=18065059"><img src="setart/MONSTAHS.png" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18065058"><img src="setart/SPELLS.PNG" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18065061"><img src="setart/TRAPS.PNG" class="neon"></a>
+                    <a href="https://www.duelingbook.com/deck?id=18071261"><img src="setart/EXTRADECKS.PNG" class="neon"></a>
+                </section>
+            </div>
         </article>
         <footer>Created/Developed by &#64;loltommyboy &#8226; Asset/Logo Design by &#64;theconstruct &#8226; card list NCCS on <a href="https://www.duelingbook.com/">Dueling Book</a> &#8226; in loving memory of Beybl</footer>
     </body>

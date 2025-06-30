@@ -8,6 +8,15 @@
 
 //example :
 const page1 = new article(
+    "setart/IGAM.webp",
+    "Ignition Ambition Released!",
+    "No, its not fiction! we've received your petitions, we have a proposition to " + 
+    "transition your submissions into fruition with 1st Edition Ignition Ambition," + 
+    "and with your permission, be ready for competition!" + 
+    "Go check out our newly finalized Card List to see further details",
+    "2025/06/29"
+)
+const page2 = new article(
     "news/NCC_ServerIcon.webp",
     "NCCs Officially Open!",
     "Neon Constellations Customs is now officially open! " + 
@@ -15,7 +24,7 @@ const page1 = new article(
     "hope that you’ll join us in welcoming a new step forward in custom cards!",
     "2025/06/19"
 );
-const page2 = new article(
+const page3 = new article(
     "news/FAQ2.png",
     "Check out our FAQ!",
     "Have questions? We thought so, head over to our #faq channel for some answers! " + 
@@ -24,27 +33,19 @@ const page2 = new article(
     "2025/06/19"
 );
 // use + to write article on multiple lines if needed 
-const page3 = new article(
+const page4 = new article(
     "news/events.png",
     "Event Plans!",
     "Keep an eye out for our upcoming event plans! Details to be announced, " +
     "and make sure you opt into the event roles in our #role-selection channel.",
     "2025/06/19"
 );
-const page4 = new article(
+const page5 = new article(
     "news/submission.png",
     "Submissions Open!",
     "The most important part of any custom card server are, you guessed it… cards! " + 
     "We’re excited to work together with creators and flesh out our format! Please " + 
     "make sure to check out our submission guidelines in #submission-guide.",
-    "2025/06/19"
-);
-const page5 = new article(
-    "news/horseballtest.png",
-    "Horse Ball Test",
-    'The match between these two teams rages on! ' +
-    'Who will claim the trophy? Only one team can be the Champ! ' +
-    'Stay tuned @snakesandrews on Twitter.com!',
     "2025/06/19"
 );
 
