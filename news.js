@@ -12,7 +12,7 @@ const page1 = new article(
     "Ignition Ambition Released!",
     "No, its not fiction! we've received your petitions, we have a proposition to " + 
     "transition your submissions into fruition with 1st Edition Ignition Ambition," + 
-    "and with your permission, be ready for competition!" + 
+    "and with your permission, be ready for competition! " + 
     "Go check out our newly finalized Card List to see further details",
     "2025/06/29"
 )
