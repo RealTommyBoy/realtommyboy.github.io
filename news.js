@@ -15,7 +15,7 @@ const page1 = new article(
     "and with your permission, be ready for competition! " + 
     "Go check out our newly finalized Card List to see further details",
     "2025/06/29"
-)
+);
 const page2 = new article(
     "news/NCC_ServerIcon.webp",
     "NCCs Officially Open!",
