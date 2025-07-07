@@ -8,6 +8,14 @@
 
 //example :
 const page1 = new article(
+    "news/BANLIST1_FORBIDDEN1.webp",
+    "July 2025 Banlist",
+    "At long last our Forbidden and Limited list is released! Go check it out on our " + 
+    "Banlist page! Pro Tip: You can filter out all the cards we previously had on the " +
+    "list because they were format philosophy hits by clicking the Filter button!",
+    "2025/07/07"
+);
+const page2 = new article(
     "setart/IGAM.webp",
     "Ignition Ambition Released!",
     "No, its not fiction! we've received your petitions, we have a proposition to " + 
@@ -15,14 +23,6 @@ const page1 = new article(
     "and with your permission, be ready for competition! " + 
     "Go check out our newly finalized Card List to see further details",
     "2025/06/29"
-);
-const page2 = new article(
-    "news/NCC_ServerIcon.webp",
-    "NCCs Officially Open!",
-    "Neon Constellations Customs is now officially open! " + 
-    "We’re super excited to be bringing this to you and " +
-    "hope that you’ll join us in welcoming a new step forward in custom cards!",
-    "2025/06/19"
 );
 const page3 = new article(
     "news/FAQ2.png",

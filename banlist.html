@@ -5,6 +5,7 @@
         <title>NCC - Banlist</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="banlist.css">
+        <script src="banlist.js" defer></script>
     </head>
     <body>
         <header class="neon">
@@ -19,7 +20,20 @@
             </nav>
         </header>
         <article>
-            <table class="neon">
+            <div class="neon">
+                <h2>Banlist</h2>
+                <h3>Effective from July 8, 2025</h3>
+                <p> 
+                    &#8226; Cards that are “Forbidden” cannot be used in your Main Deck, Extra Deck, or Side Deck.<br><br>
+                    &#8226; You can only have 1 copy maximum of a “Limited” card in your Main Deck, Extra Deck, and Side Deck combined.<br><br>
+                    &#8226; You can only have 2 copies maximum of a “Semi-limited” card in your Main Deck, Extra Deck, and Side Deck combined.<br><br>
+                    &#8226; This List applies alongside the current Yugioh TCG banlist. Hits from this List take precedent over their TCG placements.<br><br>
+                    &#8226; Custom Cards placed on this List will have a clickable link to the card on Dueling Book in the "Card Name" section.
+                </p>
+                <p>The next update after this will be no sooner than the next Set release</p>
+                <button id="button">Filter out Negates, Floodgates and Blowouts</button>
+            </div>
+            <table class="neon" id="forbidden">
                 <thead>
                     <tr>
                         <td>Card Type</td>
@@ -64,6 +78,13 @@
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Effect</td>
+                        <td>Archnemeses Protos</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>From Limited</td>
                     </tr>
                     <tr>
                         <td>Monster/Effect</td>
@@ -165,6 +186,13 @@
                     </tr>
                     <tr>
                         <td>Monster/Effect</td>
+                        <td>Floowandereeze &amp; Empen</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Effect</td>
                         <td>Fossil Dyna Pachycephalo</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
@@ -178,7 +206,7 @@
                         <td>Negate</td>
                     </tr>
                     <tr>
-                    <td>Monster/Effect</td>
+                        <td>Monster/Effect</td>
                         <td>Gem-Knight Hollowcore</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
@@ -439,6 +467,13 @@
                     <tr>
                         <td>Monster/Effect</td>
                         <td>Rikka Princess</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Effect</td>
+                        <td>R.B. Ga10 Cutter</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
@@ -843,10 +878,31 @@
                     </tr>
                     <tr>
                         <td>Monster/Link</td>
+                        <td>Fiendsmith&#39;s Sequence</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Link</td>
                         <td>Firewall Dragon Darkfluid</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Link</td>
+                        <td>Galatea-I, the Orcust Automaton</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Link</td>
+                        <td>Geonator Transverser</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Monster/Link</td>
@@ -864,6 +920,13 @@
                     </tr>
                     <tr>
                         <td>Monster/Link</td>
+                        <td>Maliss &lt;Q&gt; White Binder</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Link</td>
                         <td>Marincess Aqua Argonaut</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
@@ -871,10 +934,24 @@
                     </tr>
                     <tr>
                         <td>Monster/Link</td>
+                        <td>Moon of the Closed Heaven</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Link</td>
                         <td>Ritual Beast Ulti-Gaiapelio</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Link</td>
+                        <td>The Phantom Knights of Rusty Bardiche</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
                     </tr>
                     <tr>
                         <td>Monster/Link</td>
@@ -919,6 +996,13 @@
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Synchro</td>
+                        <td>Chaos Angel</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
                     </tr>
                     <tr>
                         <td>Monster/Synchro</td>
@@ -985,14 +1069,14 @@
                     </tr>
                     <tr>
                         <td>Monster/Synchro</td>
-                        <td>Naturia Beast</td>
+                        <td>Naturia Barkion</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
                     </tr>
                     <tr>
                         <td>Monster/Synchro</td>
-                        <td>Naturia Barkion</td>
+                        <td>Naturia Beast</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
@@ -1003,6 +1087,13 @@
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Synchro</td>
+                        <td>Rciela, Sinister Soul of the White Forest</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
                     </tr>
                 </tbody>
                 <tbody class="xyz">
@@ -1078,6 +1169,13 @@
                     </tr>
                     <tr>
                         <td>Monster/Xyz</td>
+                        <td>Evolzar Lars</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Xyz</td>
                         <td>Norito the Moral Leader</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
@@ -1092,10 +1190,24 @@
                     </tr>
                     <tr>
                         <td>Monster/Xyz</td>
+                        <td>Number 39: Utopia Double</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Xyz</td>
                         <td>Number 65: Djinn Buster</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Xyz</td>
+                        <td>Number 67: Pair-a-Dice Smasher</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
                     </tr>
                     <tr>
                         <td>Monster/Xyz</td>
@@ -1138,6 +1250,13 @@
                         <td>Forbidden</td>
                         <td>TCG</td>
                         <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Xyz</td>
+                        <td>Ryzeal Detonator</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
                     </tr>
                     <tr>
                         <td>Monster/Xyz</td>
@@ -1192,6 +1311,20 @@
                     </tr>
                     <tr>
                         <td>Spell</td>
+                        <td>Maliss In The Mirror</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Spell</td>
+                        <td>Maliss In Underground </td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Spell</td>
                         <td>Ryu-Ge Realm - Dino Domains</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
@@ -1209,14 +1342,14 @@
                         <td>Sangen Kaimen</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
-                        <td>balance hit</td>
+                        <td>From Limited</td>
                     </tr>
                     <tr>
                         <td>Spell</td>
                         <td>Sangen Summoning</td>
                         <td>Forbidden</td>
                         <td>TCG</td>
-                        <td>balance hit</td>
+                        <td>From Limited</td>
                     </tr>
                     <tr>
                         <td>Spell</td>
@@ -1234,384 +1367,533 @@
                     </tr>
                 </tbody>
                 <tbody class="trap">
-                <tr>
-                    <td>Trap</td>
-                    <td>Altergeist Protocol</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>And the Band Played On</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Anti-Spell Fragrance</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Assault Counter</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Battlin&#39; Boxing Cross Counter</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Beetrooper Fly &amp; Sting</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Blackbird Close</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Branded Retribution</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>By Order of the Emperor</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Centur-Ion True Awakening</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Chef&#39;s Special Recipe</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Crystal Miracle</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Cynet Conflict</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Dark World Punishment</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Dimensional Barrier</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Dinomorphia Intact</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Emergeroid Call</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Golden Land Forever!</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Gozen Match</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Harpie&#39;s Feather Storm</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Imperial Iron Wall</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Imperial Tombs of Necrovalley</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Infernity Barrier</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Lose 1 Turn</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Macro Cosmos</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Magical Musket - Last Stand</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Majespecter Tempest</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Mannadium Reframing</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Materiactor Critical</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Mementotlan Cranium Burst</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Mind Drain</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Mitsurugi Great Purification</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Nine Pillars of Yang Zing</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Orcust Crescendo</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Primite Scream</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Raidraptor&#39;s Phantom Knights Claw</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Rivalry of Warlords</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Salamangreat Roar</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Shadow-Imprisoning Mirror</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Skill Drain</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Songs of the Dominators</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Soul Drain</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Floodgate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Springans Interluder</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Starry Knight Blast</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Stellarnova Alpha</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Super Soldier Shield</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>T.G. Close</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Tachyon Transmigration</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Tearlaments Cryme</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Transaction Rollback</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Degen</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Ultimate Providence</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Vampire Domination</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Vanquish Soul Calamity Caesar</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
-                <tr>
-                    <td>Trap</td>
-                    <td>Zefra Divine Strike</td>
-                    <td>Forbidden</td>
-                    <td>TCG</td>
-                    <td>Negate</td>
-                </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Altergeist Protocol</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>And the Band Played On</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Anti-Spell Fragrance</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Assault Counter</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Battlin&#39; Boxing Cross Counter</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Beetrooper Fly &amp; Sting</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Blackbird Close</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Branded Retribution</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>By Order of the Emperor</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Centur-Ion True Awakening</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Chef&#39;s Special Recipe</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Crystal Miracle</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Crystron Cluster</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Cynet Conflict</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Dark World Punishment</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Dimensional Barrier</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Dinomorphia Intact</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Emergeroid Call</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Golden Land Forever!</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Gozen Match</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Harpie&#39;s Feather Storm</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Imperial Iron Wall</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Imperial Tombs of Necrovalley</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Infernity Barrier</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Lose 1 Turn</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Macro Cosmos</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Magical Musket - Last Stand</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Majespecter Tempest</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Mannadium Reframing</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Materiactor Critical</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Mementotlan Cranium Burst</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Mind Drain</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Mitsurugi Great Purification</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Nine Pillars of Yang Zing</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Orcust Crescendo</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Primite Scream</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Raidraptor&#39;s Phantom Knights Claw</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Rivalry of Warlords</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Salamangreat Roar</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Shadow-Imprisoning Mirror</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Skill Drain</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Songs of the Dominators</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Soul Drain</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Floodgate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Springans Interluder</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Starry Knight Blast</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Stellarnova Alpha</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Super Soldier Shield</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>T.G. Close</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Tachyon Transmigration</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Tearlaments Cryme</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Transaction Rollback</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Ultimate Providence</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Vampire Domination</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Vanquish Soul Calamity Caesar</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                    <tr>
+                        <td>Trap</td>
+                        <td>Zefra Divine Strike</td>
+                        <td>Forbidden</td>
+                        <td>TCG</td>
+                        <td>Negate</td>
+                    </tr>
+                </tbody>
+            </table>
+                      <table class="neon">
+                <thead>
+                    <tr>
+                        <td>Card Type</td>
+                        <td>Card Name</td>
+                        <td>NCC Format</td>
+                        <td>Origin</td>
+                        <td>Remarks</td>
+                    </tr>
+                </thead>
+                <tbody class="effect">
+                    <tr>
+                        <td>Monster/Effect</td>
+                        <td>Glow-up Bulb</td>
+                        <td>Limited</td>
+                        <td>TCG</td>
+                        <td>From Forbidden</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Effect</td>
+                        <td>Maliss &lt;P&gt; Dormouse</td>
+                        <td>Limited</td>
+                        <td>TCG</td>
+                        <td>From Semi-Limited</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Effect</td>
+                        <td>Maliss &lt;P&gt; White Rabbit</td>
+                        <td>Limited</td>
+                        <td>TCG</td>
+                        <td>From Semi-Limited</td>
+                    </tr>
+                    <tr>
+                        <td>Monster/Effect</td>
+                        <td>Unchained Soul of Sharvara</td>
+                        <td>Limited</td>
+                        <td>TCG</td>
+                        <td>From Semi-Limited</td>
+                    </tr>
+                </tbody>
+                <tbody class="ritual">
+                    
+                </tbody>
+                <tbody class="fusion">
+                    <tr>
+                        <td>Monster/Fusion</td>
+                        <td>Mementomictlan Tecuhtlica - Creation King</td>
+                        <td>Limited</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                </tbody>
+                <tbody class="link">
+
+                </tbody>
+                <tbody class="synchro">
+
+                </tbody>
+                <tbody class="xyz">
+
+                </tbody>
+                <tbody class="spell">
+                    <tr>
+                        <td>Spell</td>
+                        <td>Purrely Delicious Memory</td>
+                        <td>Limited</td>
+                        <td>TCG</td>
+                        <td>From Semi-Limited</td>
+                    </tr>
+                    <tr>
+                        <td>Spell</td>
+                        <td>Vanquish Soul, Start!</td>
+                        <td>Limited</td>
+                        <td>TCG</td>
+                        <td>New</td>
+                    </tr>
+                </tbody>
+                <tbody class="trap">
+
+                </tbody>
+            </table>
+                      <table class="neon">
+                <thead>
+                    <tr>
+                        <td>Card Type</td>
+                        <td>Card Name</td>
+                        <td>NCC Format</td>
+                        <td>Origin</td>
+                        <td>Remarks</td>
+                    </tr>
+                </thead>
+                <tbody class="effect">
+
+                </tbody>
+                <tbody class="ritual">
+                    
+                </tbody>
+                <tbody class="fusion">
+                    <tr>
+                        <td>Monster/Fusion</td>
+                        <td>Fiendsmith&#39;s Lacrima</td>
+                        <td>Unlimited</td>
+                        <td>TCG</td>
+                        <td>From Forbidden</td>
+                    </tr>
+
+                </tbody>
+                <tbody class="link">
+
+                </tbody>
+                <tbody class="synchro">
+
+                </tbody>
+                <tbody class="xyz">
+
+                </tbody>
+                <tbody class="spell">
+                    <tr>  
+                        <td>Spell</td>
+                        <td>Sekka’s Light</td>
+                        <td>Unlimited</td>
+                        <td>TCG</td>
+                        <td>From Limited</td>
+                    </tr>
+                    <tr>
+                        <td>Spell</td>
+                        <td>Into the Void</td>
+                        <td>Unlimited</td>
+                        <td>TCG</td>
+                        <td>From Limited</td>
+                    </tr>
+                </tbody>
+                <tbody class="trap">
+                    <tr>
+                        <td>Trap</td>
+                        <td>Naturia Sacred Tree</td>
+                        <td>Unlimited</td>
+                        <td>TCG</td>
+                        <td>From Limited</td>
+                    </tr>
                 </tbody>
             </table>
         </article>
