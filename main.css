@@ -34,14 +34,25 @@ iframe {
     align-content: center;
 }
 
-.news > section > img {
+#linkembed {
     margin: 2%;
+}
+
+.news > section > a > img:hover {
+    box-shadow: 
+    2px 2px 20px 2px #e006f7, 
+    -2px -2px 20px 2px #01fbf7;
+}
+
+.news > section > a > img {
     width: auto;
     height: 25vw;
     border-top: 3px solid #01fbf7;
     border-left: 3px solid #01fbf7;
     border-bottom: 3px solid #e006f7;
     border-right: 3px solid #e006f7;
+    transition-duration: 400ms;
+    transition-property: box-shadow;
 }
 
 .news > section > article {
